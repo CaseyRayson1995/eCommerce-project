@@ -1,0 +1,215 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Sapphire Elegance Ring",
+        "price": 1200,
+        "type": "Ring",
+        "description": "A stunning sapphire stone set in a halo of sparkling diamonds, crafted from 18k white gold. Perfect for special occasions."
+      },
+      {
+        "id": 2,
+        "name": "Golden Serenity Necklace",
+        "price": 950,
+        "type": "Necklace",
+        "description": "A delicate chain necklace adorned with a polished golden pendant shaped like a teardrop. Elegant and timeless for any event."
+      },
+      {
+        "id": 3,
+        "name": "Pearl Grace Earrings",
+        "price": 450,
+        "type": "Earrings",
+        "description": "Classic freshwater pearl earrings with sterling silver hooks. These minimalist earrings are a staple for any jewelry collection."
+      },
+      {
+        "id": 4,
+        "name": "Diamond Luxe Bracelet",
+        "price": 3500,
+        "type": "Bracelet",
+        "description": "A luxurious bracelet encrusted with round-cut diamonds in a platinum setting. Ideal for glamorous evenings."
+      },
+      {
+        "id": 5,
+        "name": "Rose Gold Bloom Ring",
+        "price": 675,
+        "type": "Ring",
+        "description": "A chic rose gold ring with intricate floral patterns, accented with small diamonds for added sparkle and charm."
+      },
+      {
+        "id": 6,
+        "name": "Amethyst Whisper Pendant",
+        "price": 290,
+        "type": "Pendant Necklace",
+        "description": "A violet amethyst set in a minimalist silver frame, hanging from a dainty chain. A touch of mystical elegance for everyday wear."
+      },
+      {
+        "id": 7,
+        "name": "Silver Twist Cuff",
+        "price": 850,
+        "type": "Bracelet",
+        "description": "A contemporary silver cuff bracelet with an elegant twist design, offering modern style with subtle sophistication."
+      },
+      {
+        "id": 8,
+        "name": "Emerald Horizon Earrings",
+        "price": 1100,
+        "type": "Earrings",
+        "description": "Dangling earrings featuring radiant emerald stones surrounded by small diamonds, set in 18k gold."
+      },
+      {
+        "id": 9,
+        "name": "Black Onyx Mystique Necklace",
+        "price": 650,
+        "type": "Necklace",
+        "description": "A statement black onyx pendant on a silver chain, combining mystery and elegance in one piece."
+      },
+      {
+        "id": 10,
+        "name": "Ruby Radiance Ring",
+        "price": 2000,
+        "type": "Ring",
+        "description": "A fiery ruby set in a regal gold band, accented with shimmering diamonds. Ideal for those who love bold and classic pieces."
+      },
+      {
+        "id": 11,
+        "name": "Classic White T-Shirt",
+        "price": 25,
+        "type": "Shirt",
+        "description": "A simple and versatile white cotton t-shirt that’s a wardrobe essential for casual wear."
+      },
+      {
+        "id": 12,
+        "name": "Striped Button-Up Shirt",
+        "price": 45,
+        "type": "Shirt",
+        "description": "A crisp, long-sleeve button-up shirt with navy and white stripes, perfect for semi-formal occasions."
+      },
+      {
+        "id": 13,
+        "name": "Casual Denim Shirt",
+        "price": 40,
+        "type": "Shirt",
+        "description": "A relaxed-fit denim shirt with snap buttons and chest pockets, ideal for layering or casual looks."
+      },
+      {
+        "id": 14,
+        "name": "Graphic Print Tee",
+        "price": 30,
+        "type": "Shirt",
+        "description": "A soft cotton t-shirt featuring a bold graphic print design, great for casual days out."
+      },
+      {
+        "id": 15,
+        "name": "Plaid Flannel Shirt",
+        "price": 50,
+        "type": "Shirt",
+        "description": "A classic plaid flannel shirt that provides comfort and warmth. Perfect for layering during colder months."
+      },
+      {
+        "id": 16,
+        "name": "Black Polo Shirt",
+        "price": 35,
+        "type": "Shirt",
+        "description": "A sleek black polo shirt made from breathable fabric, perfect for smart casual wear."
+      },
+      {
+        "id": 17,
+        "name": "V-Neck Long Sleeve Shirt",
+        "price": 28,
+        "type": "Shirt",
+        "description": "A comfortable long sleeve shirt with a v-neck design, ideal for layering during cooler days."
+      },
+      {
+        "id": 18,
+        "name": "Silk Dress Shirt",
+        "price": 120,
+        "type": "Shirt",
+        "description": "An elegant silk shirt with a smooth, glossy finish. Perfect for formal occasions."
+      },
+      {
+        "id": 19,
+        "name": "Oversized Hoodie",
+        "price": 60,
+        "type": "Shirt",
+        "description": "A comfy oversized hoodie with a soft interior lining, perfect for lounging or casual wear."
+      },
+      {
+        "id": 20,
+        "name": "Checked Button-Down Shirt",
+        "price": 40,
+        "type": "Shirt",
+        "description": "A lightweight checked button-down shirt that’s perfect for everyday casual wear."
+      },
+      {
+        "id": 21,
+        "name": "Slim Fit Chinos",
+        "price": 65,
+        "type": "Pants",
+        "description": "A pair of sleek slim-fit chinos made from durable cotton, perfect for both work and casual outings."
+      },
+      {
+        "id": 22,
+        "name": "Classic Blue Jeans",
+        "price": 50,
+        "type": "Pants",
+        "description": "Classic straight-leg blue jeans made from high-quality denim. An everyday wardrobe essential."
+      },
+      {
+        "id": 23,
+        "name": "Cargo Pants",
+        "price": 55,
+        "type": "Pants",
+        "description": "Relaxed-fit cargo pants with multiple pockets, offering both functionality and style."
+      },
+      {
+        "id": 24,
+        "name": "Black Jogger Pants",
+        "price": 45,
+        "type": "Pants",
+        "description": "Comfortable black joggers with an adjustable waistband and tapered legs, perfect for workouts or lounging."
+      },
+      {
+        "id": 25,
+        "name": "Tailored Dress Pants",
+        "price": 80,
+        "type": "Pants",
+        "description": "Sharp, tailored dress pants with a slim fit, ideal for formal occasions or office wear."
+      },
+      {
+        "id": 26,
+        "name": "Corduroy Pants",
+        "price": 70,
+        "type": "Pants",
+        "description": "Stylish corduroy pants offering a vintage look and comfortable fit, great for casual or semi-formal wear."
+      },
+      {
+        "id": 27,
+        "name": "Relaxed Fit Linen Pants",
+        "price": 75,
+        "type": "Pants",
+        "description": "Breathable linen pants in a relaxed fit, ideal for summer days or vacations."
+      },
+      {
+        "id": 28,
+        "name": "Athletic Track Pants",
+        "price": 55,
+        "type": "Pants",
+        "description": "Durable track pants with moisture-wicking fabric and a slim fit, great for sports or gym sessions."
+      },
+      {
+        "id": 29,
+        "name": "Khaki Pants",
+        "price": 60,
+        "type": "Pants",
+        "description": "Classic khaki pants that offer a relaxed fit, perfect for casual or semi-formal outfits."
+      },
+      {
+        "id": 30,
+        "name": "Distressed Skinny Jeans",
+        "price": 50,
+        "type": "Pants",
+        "description": "Edgy distressed skinny jeans with a comfortable stretch fit, perfect for casual wear."
+      }
+    ]
+  }
+  
