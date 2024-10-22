@@ -1,5 +1,5 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -37,8 +37,20 @@ const Button = styled.button`
     }
 `;
 
-const ProductCard = ({ product }) => {
-    const navigate = useNavigate()
+const ProductDetails = () => {
+    const [product, setProduct] = useState(null)
+    const {id} = useParams()
+    useEffect(() => {
+        fetch(`http://localhost:6001/products/${id}`)
+        .then ((response) => response.json())
+        .then ((data) => setProduct(data))
+        .catch((error) => console.log(error))
+    },[])
+    if(!product){
+        return(
+            <h2>Loading</h2>
+        )
+    }
     return (
         <Card>
             {product.image && <img src={product.image} alt={product.name} style={{ maxWidth: "100%", height: "auto" }} />}
@@ -46,13 +58,9 @@ const ProductCard = ({ product }) => {
             <Price>Price: ${product.price}</Price>
             <p>Type: {product.type}</p>
             <p>Description: {product.description}</p>
-            <Button onClick={() => navigate(`/products/${product.id}`)}>More Details</Button>
+            
         </Card>
     );
 };
 
-export default ProductCard;
-
-
-
-
+export default ProductDetails;

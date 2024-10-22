@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import productsData from "./db.json";
 import './ProductList.css';
 import { Link, useOutletContext } from "react-router-dom";
+import ProductCard from "./ProductCard"
 
 const ProductList = () => {
   const { products } = useOutletContext()
 
-  
 
   const getTopThreeByType = (type) => {
     const filteredProducts = products.filter((product) => product.type.toLowerCase() === type.toLowerCase());
@@ -30,33 +30,15 @@ const ProductList = () => {
       <div className="product-row">
         <Link to="/products?type=jewlery">See All Jewlery</Link>
         {jewelryProducts.map((product) => (
-          <div key={product.id} className="product-card">
-            <h3>{product.name}</h3>
-            <p>Price: ${product.price}</p>
-            <p>Type: {product.type}</p>
-            <p>Description: {product.description}</p>
-            {product.image && <img src={product.image} alt={product.name} />}
-          </div>
+          <ProductCard product={product} key={product.id}/>
         ))}
         <Link to="/products?type=shirt">See All shirts</Link>
         {shirtProducts.map((product) => (
-          <div key={product.id} className="product-card">
-            <h3>{product.name}</h3>
-            <p>Price: ${product.price}</p>
-            <p>Type: {product.type}</p>
-            <p>Description: {product.description}</p>
-            {product.image && <img src={product.image} alt={product.name} />}
-          </div>
+          <ProductCard product={product} key={product.id}/>
         ))}
         <Link to="/products?type=pants">See All Pants</Link>
         {pantsProducts.map((product) => (
-          <div key={product.id} className="product-card">
-            <h3>{product.name}</h3>
-            <p>Price: ${product.price}</p>
-            <p>Type: {product.type}</p>
-            <p>Description: {product.description}</p>
-            {product.image && <img src={product.image} alt={product.name} />}
-          </div>
+          <ProductCard product={product} key={product.id}/>
         ))}
       </div>
     </div>
