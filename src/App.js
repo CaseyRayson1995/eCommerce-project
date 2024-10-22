@@ -13,9 +13,12 @@ const App = () => {
         setProducts(data);
       });
   }, []); 
+  function handleProduct(newProduct){
+    setProducts(current=> [...current, newProduct]);
+  }
   return (
     <div>
-      <Outlet context= {{products}}/>
+      <Outlet context= {{products,handleProduct}}/>
     </div>
   );
 };

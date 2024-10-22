@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { useOutletContext } from "react-router";
 import styled from "styled-components";
 
 const FormContainer = styled.div`
@@ -47,7 +48,24 @@ const SubmitButton = styled.button`
     }
 `;
 
-const ProductForm = ({ newProduct, handleChange, handleSubmit, isFormVisible }) => {
+const ProductForm = () => {
+    const [newProduct, setNewProduct] = useState({ name: "", price: "", type: "", description: "", image: "" });
+    const [isFormVisible, setIsFormVisible] = useState(true);
+    const { handleProduct } = useOutletContext()
+    const handleChange = (e) => {
+        setNewProduct({ ...newProduct, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        
+            handleProduct(newProduct)
+        setNewProduct({ name: "", price: "", type: "", description: "", image: "" });
+    };
+
+    const toggleFormVisibility = () => {
+        setIsFormVisible(!isFormVisible);
+    };
     return (
         <FormContainer style={{ display: isFormVisible ? 'block' : 'none' }}>
             <h2>Add New Product</h2>

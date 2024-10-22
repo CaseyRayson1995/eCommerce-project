@@ -37,6 +37,12 @@ const Button = styled.button`
     }
 `;
 
+
+
+
+
+
+
 const ProductCard = ({ product }) => {
     const navigate = useNavigate()
     return (
@@ -44,8 +50,8 @@ const ProductCard = ({ product }) => {
             {product.image && <img src={product.image} alt={product.name} style={{ maxWidth: "100%", height: "auto" }} />}
             <Title>{product.name}</Title>
             <Price>Price: ${product.price}</Price>
-            <p>Type: {product.type}</p>
-            <p>Description: {product.description}</p>
+            {/* <p>Type: {product.type}</p> */}
+            {/* <p> {product.image}</p> */}
             <Button onClick={() => navigate(`/products/${product.id}`)}>More Details</Button>
         </Card>
     );
