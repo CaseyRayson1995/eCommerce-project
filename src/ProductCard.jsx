@@ -38,11 +38,6 @@ const Button = styled.button`
 `;
 
 
-
-
-
-
-
 const ProductCard = ({ product }) => {
     const navigate = useNavigate()
     return (

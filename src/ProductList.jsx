@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react";
-import productsData from "./db.json";
 import './ProductList.css';
 import { Link, useOutletContext } from "react-router-dom";
 import ProductCard from "./ProductCard"

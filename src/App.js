@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import ProductList from "./ProductList";
 import { Outlet } from "react-router-dom";
-
+import NavBar from "./Component/NavBar";
 const App = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
@@ -18,6 +17,7 @@ const App = () => {
   }
   return (
     <div>
+      <NavBar />
       <Outlet context= {{products,handleProduct}}/>
     </div>
   );
