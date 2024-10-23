@@ -1,4 +1,3 @@
-import './ProductList.css';
 import { Link, useOutletContext } from "react-router-dom";
 import ProductCard from "./ProductCard"
 import styled from "styled-components";
@@ -35,7 +34,7 @@ const ProductList = () => {
         
 
       <Row className="product-row">
-        <Link to="/products?type=jewlery">See All Jewlery</Link>
+        <Link to="/products?type=jewelry">See All Jewlery</Link>
         {jewelryProducts.map((product) => (
           <ProductCard product={product} key={product.id}/>
         ))}

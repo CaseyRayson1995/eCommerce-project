@@ -64,17 +64,19 @@ const ProductsPage = () => {
   const { products } = useOutletContext();
   const params = useLocation();
   const type = params.search.replace("?type=", "").toLowerCase();
-  
+  console.log(type)
   const navigate = useNavigate()
-  const filteredProducts = products.filter((product) =>
-    (type === "jewelry" && ["Ring", "Necklace", "Earrings", "Bracelet", "Pendant Necklace"].includes(product.type)) ||
+  const filteredProducts = products.filter((product) => {
+    
+    return (type === "jewelry" && ["Ring", "Necklace", "Earrings", "Bracelet", "Pendant Necklace"].includes(product.type)) ||
   product.type.toLowerCase() === type
+  }
 );
 
 return (
   <Container>
       <Row>
-        <LinkStyled to="/products?type=jewelry">See All Jewelry</LinkStyled>
+        
         {filteredProducts.map((product) => (
           <Card key={product.id}>
             {product.image && <img src={product.image} alt={product.name} style={{ maxWidth: "100%", height: "auto" }} />}
