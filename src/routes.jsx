@@ -5,9 +5,9 @@ import ErrorPage from "./Pages/ErrorPage";
 // import Pants from "./Pages/Pants";
 import App from "./App";
 import ProductsPage from "./Component/ProductsPage";
-import ProductList from "./ProductList";
+import ProductList from "./Component/ProductList";
 import ProductDetails from "./Component/ProductDetails";
-import ProductForm from './ProductForm'
+import ProductForm from './Component/ProductForm'
 
 const router = createBrowserRouter([
   {

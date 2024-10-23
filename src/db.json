@@ -5,7 +5,7 @@
         "name": "Sapphire Elegance Ring",
         "price": 1200,
         "type": "Ring",
-        "image":"./Image/Sapphire-Ring.jpg",
+        "image":"/Image/Sapphire-Ring.jpg",
         "description": "A stunning sapphire stone set in a halo of sparkling diamonds, crafted from 18k white gold. Perfect for special occasions."
       },
       {
@@ -13,7 +13,7 @@
         "name": "Golden Serenity Necklace",
         "price": 950,
         "type": "Necklace",
-        "image":"./Image/goldennecklass.jpg",
+        "image":"/Image/goldennecklass.jpg",
         "description": "A delicate chain necklace adorned with a polished golden pendant shaped like a teardrop. Elegant and timeless for any event."
       },
       {
@@ -21,7 +21,7 @@
         "name": "Pearl Grace Earrings",
         "price": 450,
         "type": "Earrings",
-        "image":"./Image/pearls.webp",
+        "image":"/Image/pearls.webp",
         "description": "Classic freshwater pearl earrings with sterling silver hooks. These minimalist earrings are a staple for any jewelry collection."
       },
       {
@@ -29,7 +29,7 @@
         "name": "Diamond Luxe Bracelet",
         "price": 3500,
         "type": "Bracelet",
-        "image":"./Image/Luxe Bracelet.jpg",
+        "image":"/Image/Luxe Bracelet.jpg",
         "description": "A luxurious bracelet encrusted with round-cut diamonds in a platinum setting. Ideal for glamorous evenings."
       },
       {
@@ -37,7 +37,7 @@
         "name": "Rose Gold Bloom Ring",
         "price": 675,
         "type": "Ring",
-        "image":"./Image/Rose GoldRing.jpg",
+        "image":"/Image/Rose GoldRing.jpg",
         "description": "A chic rose gold ring with intricate floral patterns, accented with small diamonds for added sparkle and charm."
       },
       {
@@ -45,7 +45,7 @@
         "name": "Amethyst Whisper Pendant",
         "price": 290,
         "type": "Pendant Necklace",
-        "image":"./Image/AmethystWhisper.jpg",
+        "image":"/Image/AmethystWhisper.jpg",
         "description": "A violet amethyst set in a minimalist silver frame, hanging from a dainty chain. A touch of mystical elegance for everyday wear."
       },
       {
@@ -53,7 +53,7 @@
         "name": "Silver Twist Cuff",
         "price": 850,
         "type": "Bracelet",
-        "image":"./Image/Silver-Twist-Cuff.webp",
+        "image":"/Image/Silver-Twist-Cuff.webp",
         "description": "A contemporary silver cuff bracelet with an elegant twist design, offering modern style with subtle sophistication."
       },
       {
@@ -61,7 +61,7 @@
         "name": "Emerald Horizon Earrings",
         "price": 1100,
         "type": "Earrings",
-        "image":"./Image/EmeraldEarrings.jpg",
+        "image":"/Image/EmeraldEarrings.jpg",
         "description": "Dangling earrings featuring radiant emerald stones surrounded by small diamonds, set in 18k gold."
       },
       {
@@ -69,7 +69,7 @@
         "name": "Black Onyx Mystique Necklace",
         "price": 650,
         "type": "Necklace",
-        "image":"./Image/BlackOnyxMystique.jpg",
+        "image":"/Image/BlackOnyxMystique.jpg",
         "description": "A statement black onyx pendant on a silver chain, combining mystery and elegance in one piece."
       },
       {
@@ -77,7 +77,7 @@
         "name": "Ruby Radiance Ring",
         "price": 2000,
         "type": "Ring",
-        "image":"./Image/Ruby Ring.jpg",
+        "image":"/Image/Ruby Ring.jpg",
         "description": "A fiery ruby set in a regal gold band, accented with shimmering diamonds. Ideal for those who love bold and classic pieces."
       },
       {
@@ -85,7 +85,7 @@
         "name": "Classic White T-Shirt",
         "price": 25,
         "type": "Shirt",
-        "image":"./Image/White T.jpg",
+        "image":"/Image/White T.jpg",
         "description": "A simple and versatile white cotton t-shirt that’s a wardrobe essential for casual wear."
       },
       {
@@ -93,7 +93,7 @@
         "name": "Striped Button-Up Shirt",
         "price": 45,
         "type": "Shirt",
-        "image":"./Image/Button-Up-Shirt.jpg",
+        "image":"/Image/Button-Up-Shirt.jpg",
         "description": "A crisp, long-sleeve button-up shirt with navy and white stripes, perfect for semi-formal occasions."
       },
       {
@@ -101,7 +101,7 @@
         "name": "Casual Denim Shirt",
         "price": 40,
         "type": "Shirt",
-        "image":"./Image/Denim Shirt.jpg",
+        "image":"/Image/Denim Shirt.jpg",
         "description": "A relaxed-fit denim shirt with snap buttons and chest pockets, ideal for layering or casual looks."
       },
       {
@@ -109,7 +109,7 @@
         "name": "Graphic Print Tee",
         "price": 30,
         "type": "Shirt",
-        "image":"./Image/Graphic Tee.jpg",
+        "image":"/Image/Graphic Tee.jpg",
         "description": "A soft cotton t-shirt featuring a bold graphic print design, great for casual days out."
       },
       {
@@ -117,7 +117,7 @@
         "name": "Plaid Flannel Shirt",
         "price": 50,
         "type": "Shirt",
-        "image":"./Image/Plaid Shirt.jpg",
+        "image":"/Image/Plaid Shirt.jpg",
         "description": "A classic plaid flannel shirt that provides comfort and warmth. Perfect for layering during colder months."
       },
       {
@@ -125,7 +125,7 @@
         "name": "Black Polo Shirt",
         "price": 35,
         "type": "Shirt",
-        "image":"./Image/BlackPolo .jpg",
+        "image":"/Image/BlackPolo .jpg",
         "description": "A sleek black polo shirt made from breathable fabric, perfect for smart casual wear."
       },
       {
@@ -133,7 +133,7 @@
         "name": "V-Neck Long Sleeve Shirt",
         "price": 28,
         "type": "Shirt",
-        "image":"./Image/V-NeckShirt.webp",
+        "image":"/Image/V-NeckShirt.webp",
         "description": "A comfortable long sleeve shirt with a v-neck design, ideal for layering during cooler days."
       },
       {
@@ -141,7 +141,7 @@
         "name": "Silk Dress Shirt",
         "price": 120,
         "type": "Shirt",
-        "image":"./Image/Silk-Dress-Shirt.jpg",
+        "image":"/Image/Silk-Dress-Shirt.jpg",
         "description": "An elegant silk shirt with a smooth, glossy finish. Perfect for formal occasions."
       },
       {
@@ -149,7 +149,7 @@
         "name": "Oversized Hoodie",
         "price": 60,
         "type": "Shirt",
-        "image":"./Image/OversizedHoodie.jpg",
+        "image":"/Image/OversizedHoodie.jpg",
         "description": "A comfy oversized hoodie with a soft interior lining, perfect for lounging or casual wear."
       },
       {
@@ -157,7 +157,7 @@
         "name": "Checked Button-Down Shirt",
         "price": 40,
         "type": "Shirt",
-        "image":"./Image/CheckedButton-DownShirt.webp",
+        "image":"/Image/CheckedButton-DownShirt.webp",
         "description": "A lightweight checked button-down shirt that’s perfect for everyday casual wear."
       },
       {
@@ -165,7 +165,7 @@
         "name": "Slim Fit Chinos",
         "price": 65,
         "type": "Pants",
-        "image":"./Image/Slim-Chinos.jpg",
+        "image":"/Image/Slim-Chinos.jpg",
         "description": "A pair of sleek slim-fit chinos made from durable cotton, perfect for both work and casual outings."
       },
       {
@@ -173,7 +173,7 @@
         "name": "Classic Blue Jeans",
         "price": 50,
         "type": "Pants",
-        "image":"./Image/Blue Jeans.jpg",
+        "image":"/Image/Blue Jeans.jpg",
         "description": "Classic straight-leg blue jeans made from high-quality denim. An everyday wardrobe essential."
       },
       {
@@ -181,7 +181,7 @@
         "name": "Cargo Pants",
         "price": 55,
         "type": "Pants",
-        "image":"./Image/Cargo Pants.jpg",
+        "image":"/Image/Cargo Pants.jpg",
         "description": "Relaxed-fit cargo pants with multiple pockets, offering both functionality and style."
       },
       {
@@ -189,7 +189,7 @@
         "name": "Black Jogger Pants",
         "price": 45,
         "type": "Pants",
-        "image":"./Image/BlackJogger.jpg",
+        "image":"/Image/BlackJogger.jpg",
         "description": "Comfortable black joggers with an adjustable waistband and tapered legs, perfect for workouts or lounging."
       },
       {
@@ -197,7 +197,7 @@
         "name": "Tailored Dress Pants",
         "price": 80,
         "type": "Pants",
-        "image":"./Image/Tailored-Pants.jpg",
+        "image":"/Image/Tailored-Pants.jpg",
         "description": "Sharp, tailored dress pants with a slim fit, ideal for formal occasions or office wear."
       },
       {
@@ -205,7 +205,7 @@
         "name": "Corduroy Pants",
         "price": 70,
         "type": "Pants",
-        "image":"./Image/Corduroy Pants.jpg",
+        "image":"/Image/Corduroy Pants.jpg",
         "description": "Stylish corduroy pants offering a vintage look and comfortable fit, great for casual or semi-formal wear."
       },
       {
@@ -213,7 +213,7 @@
         "name": "Relaxed Fit Linen Pants",
         "price": 75,
         "type": "Pants",
-        "image":"./Image/Linen Pants.jpg",
+        "image":"/Image/Linen Pants.jpg",
         "description": "Breathable linen pants in a relaxed fit, ideal for summer days or vacations."
       },
       {
@@ -221,7 +221,7 @@
         "name": "Athletic Track Pants",
         "price": 55,
         "type": "Pants",
-        "image":"./Image/AthleticTrackPant.jpg",
+        "image":"/Image/AthleticTrackPant.jpg",
         "description": "Durable track pants with moisture-wicking fabric and a slim fit, great for sports or gym sessions."
       },
       {
@@ -229,7 +229,7 @@
         "name": "Khaki Pants",
         "price": 60,
         "type": "Pants",
-        "image":"./Image/Khaki Pants.jpg",
+        "image":"/Image/Khaki Pants.jpg",
         "description": "Classic khaki pants that offer a relaxed fit, perfect for casual or semi-formal outfits."
       },
       {
@@ -237,7 +237,7 @@
         "name": "Distressed Skinny Jeans",
         "price": 50,
         "type": "Pants",
-        "image":"./Image/Distressed Skinny Jeans.webp",
+        "image":"/Image/Distressed Skinny Jeans.webp",
         "description": "Edgy distressed skinny jeans with a comfortable stretch fit, perfect for casual wear."
       }
     ]
