@@ -1,28 +1,3 @@
-// import React from "react";
-// import { NavLink } from "react-router-dom";
-// function NavBar() {
-//     return (
-//         <header>
-            
-//             <h1>Test</h1>
-
-//             <nav>
-//                 <NavLink
-//                 to="/" className={({ isActive }) => isActive ? "active home-link" : "home-link"}>Home</NavLink>
-
-//                 <NavLink
-//                 to="/products/new" className={({ isActive }) => isActive ? "active list-link" : "list-link"}>New Form</NavLink>
-//             </nav>
-
-//         </header>
-
-//     );
-// }
-
-// export default NavBar
-
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 // Styled components
@@ -41,7 +16,7 @@ const Title = styled.h1`
 const Navigation = styled.nav`
     margin-top: 10px;
     display: flex;
-    justify-content: center;
+
 `;
 
 const StyledNavLink = styled(NavLink)`
@@ -52,11 +27,40 @@ const StyledNavLink = styled(NavLink)`
 
     &.active {
         font-weight: bold;
-        color: #ffffff; /* Active link color */
+        color: #ffffff;
     }
 
     &:hover {
-        text-decoration: underline; /* Underline effect on hover */
+        text-decoration: underline;
+    }
+`;
+
+const Dropdown = styled.div`
+    position: relative;
+    display: inline-block;
+
+    &:hover .dropdown-content {
+        display: block;
+    }
+`;
+
+const DropdownContent = styled.div`
+    display: none;
+    position: absolute;
+    background-color: #282c34;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+    a {
+        color: #61dafb;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    a:hover {
+        background-color: #333;
     }
 `;
 
@@ -115,21 +119,12 @@ function NavBar() {
                 <StyledNavLink to="/" end>
                     Home
                 </StyledNavLink>
+
                 <StyledNavLink to="/products/new">
                     New Form
                 </StyledNavLink>
 
-                
-                <DropdownContainer>
-                    <DropdownButton onClick={toggleDropdown}>
-                        Inventory
-                    </DropdownButton>
-                    <DropdownContent isOpen={isDropdownOpen}>
-                        <DropdownLink to="/products?type=jewelry">jewelry</DropdownLink>
-                        <DropdownLink to="/products?type=shirt">shirts</DropdownLink>
-                        <DropdownLink to="/products?type=pants">Pants</DropdownLink>
-                    </DropdownContent>
-                </DropdownContainer>
+
             </Navigation>
         </Header>
     );

@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation, useOutletContext, Link } from "react-router-dom";
+import { useLocation, useOutletContext, } from "react-router-dom";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
@@ -49,16 +49,6 @@ const Button = styled.button`
   }
 `;
 
-const LinkStyled = styled(Link)`
-  margin-bottom: 10px; /* Spacing below the link */
-  color: #007bff; /* Link color */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Bold text for links */
-
-  &:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
-`;
 
 const ProductsPage = () => {
   const { products } = useOutletContext();
@@ -91,3 +81,4 @@ return (
 };
 
 export default ProductsPage;
+
