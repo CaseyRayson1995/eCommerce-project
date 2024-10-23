@@ -1,21 +1,27 @@
-import { Link, useOutletContext } from "react-router-dom";
-import ProductCard from "./ProductCard"
+import { useOutletContext } from "react-router-dom";
+import ProductCard from "./ProductCard";
 import styled from "styled-components";
 
 const Container = styled.div`
-display: block;
-`
+  display: block;
+  text-align: center; /* Center align content */
+  margin: 0 auto; /* Center the container */
+`;
 
 const Row = styled.div`
+  display: flex;
+  justify-content: center; /* Center items within the row */
+  margin-bottom: 20px; /* Space between rows */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+`;
 
-display: flex
-`
 const ProductList = () => {
-  const { products } = useOutletContext()
-
+  const { products } = useOutletContext();
 
   const getTopThreeByType = (type) => {
-    const filteredProducts = products.filter((product) => product.type.toLowerCase() === type.toLowerCase());
+    const filteredProducts = products.filter(
+      (product) => product.type.toLowerCase() === type.toLowerCase()
+    );
     return filteredProducts.slice(0, 3);
   };
 
@@ -30,25 +36,19 @@ const ProductList = () => {
 
   return (
     <Container className="product-container">
-
-        
-
       <Row className="product-row">
-        <Link to="/products?type=jewelry">See All Jewlery</Link>
         {jewelryProducts.map((product) => (
-          <ProductCard product={product} key={product.id}/>
+          <ProductCard product={product} key={product.id} />
         ))}
-        </Row>
+      </Row>
       <Row className="product-row">
-        <Link to="/products?type=shirt">See All shirts</Link>
         {shirtProducts.map((product) => (
-          <ProductCard product={product} key={product.id}/>
+          <ProductCard product={product} key={product.id} />
         ))}
-        </Row>
+      </Row>
       <Row className="product-row">
-        <Link to="/products?type=pants">See All Pants</Link>
         {pantsProducts.map((product) => (
-          <ProductCard product={product} key={product.id}/>
+          <ProductCard product={product} key={product.id} />
         ))}
       </Row>
     </Container>
