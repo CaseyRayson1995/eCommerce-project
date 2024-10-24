@@ -54,25 +54,34 @@ const SubmitButton = styled.button`
 
 const ProductForm = () => {
     const [newProduct, setNewProduct] = useState({ name: "", price: "", type: "", description: "", image: "" });
-    const [isFormVisible, setIsFormVisible] = useState(true);
-    const { handleProduct } = useOutletContext();
-    
+    const { handleProduct } = useOutletContext(); // This gets handleProduct from the parent 
+
     const handleChange = (e) => {
         setNewProduct({ ...newProduct, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        handleProduct(newProduct);
-        setNewProduct({ name: "", price: "", type: "", description: "", image: "" });
-    };
 
-    const toggleFormVisibility = () => {
-        setIsFormVisible(!isFormVisible);
+        fetch('http://localhost:6001/products', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newProduct),
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            handleProduct(data); // Add the new product to the product list
+            setNewProduct({ name: "", price: "", type: "", description: "", image: "" }); // Reset the form fields
+        })
+        .catch((error) => {
+            console.error('Error adding product:', error);
+        });
     };
 
     return (
-        <FormContainer style={{ display: isFormVisible ? 'block' : 'none' }}>
+        <FormContainer>
             <h2>Add New Product</h2>
             <form onSubmit={handleSubmit}>
                 <StyledSelect name="type" value={newProduct.type} onChange={handleChange} required>
@@ -107,6 +116,13 @@ const ProductForm = () => {
                     value={newProduct.description}
                     onChange={handleChange}
                     required
+                />
+                <StyledInput
+                    type="text"
+                    name="image"
+                    placeholder="Image URL"
+                    value={newProduct.image}
+                    onChange={handleChange}
                 />
                 <SubmitButton type="submit">Add Product</SubmitButton>
             </form>

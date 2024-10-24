@@ -1,6 +1,7 @@
+import React from "react";
+import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
 
-// Styled components
 const Header = styled.header`
     background-color: #282c34;
     padding: 20px;
@@ -16,7 +17,8 @@ const Title = styled.h1`
 const Navigation = styled.nav`
     margin-top: 10px;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 `;
 
 const StyledNavLink = styled(NavLink)`
@@ -27,6 +29,7 @@ const StyledNavLink = styled(NavLink)`
 
     &.active {
         font-weight: bold;
+        color: #ffffff;
         color: #ffffff;
     }
 
@@ -64,54 +67,9 @@ const DropdownContent = styled.div`
     }
 `;
 
-const DropdownContainer = styled.div`
-    position: relative;
-    display: inline-block;
-`;
-
-const DropdownButton = styled.button`
-    background: none;
-    color: inherit;
-    font: inherit;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    }
-`;
-
-const DropdownContent = styled.div`
-    display: ${({ isOpen }) => (isOpen ? "block" : "none")};
-    position: absolute;
-    background-color: #282c34;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-`;
-
-const DropdownLink = styled(NavLink)`
-    color: #61dafb;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-
-    &:hover {
-        background-color: #ffffff;
-        color: #282c34;
-    }
-
-    &.active {
-        font-weight: bold;
-        color: #ffffff; /* Active link color */
-    }
-`;
-
 function NavBar() {
-    const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-    const toggleDropdown = () => {
-        setDropdownOpen(!isDropdownOpen);
-    };
-
+    
     return (
         <Header>
             <Title>One Stop Shop</Title>
@@ -120,15 +78,23 @@ function NavBar() {
                     Home
                 </StyledNavLink>
 
+
                 <StyledNavLink to="/products/new">
                     New Form
                 </StyledNavLink>
 
-
+                <Dropdown>
+                    <StyledNavLink as="span">Products</StyledNavLink>
+                    <DropdownContent className="dropdown-content">
+                        <Link to="/products?type=jewelry">See All Jewelry</Link>
+                        <Link to="/products?type=shirt">See All Shirts</Link>
+                        <Link to="/products?type=pants">See All Pants</Link>
+                    </DropdownContent>
+                </Dropdown>
             </Navigation>
+        
         </Header>
     );
 }
 
 export default NavBar;
-
