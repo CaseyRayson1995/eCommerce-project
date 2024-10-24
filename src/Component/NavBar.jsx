@@ -1,31 +1,7 @@
-// import React from "react";
-// import { NavLink } from "react-router-dom";
-// function NavBar() {
-//     return (
-//         <header>
-            
-//             <h1>Test</h1>
-
-//             <nav>
-//                 <NavLink
-//                 to="/" className={({ isActive }) => isActive ? "active home-link" : "home-link"}>Home</NavLink>
-
-//                 <NavLink
-//                 to="/products/new" className={({ isActive }) => isActive ? "active list-link" : "list-link"}>New Form</NavLink>
-//             </nav>
-
-//         </header>
-
-//     );
-// }
-
-// export default NavBar
-
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React from "react";
+import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
 
-// Styled components
 const Header = styled.header`
     background-color: #282c34;
     padding: 20px;
@@ -42,6 +18,7 @@ const Navigation = styled.nav`
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 `;
 
 const StyledNavLink = styled(NavLink)`
@@ -52,62 +29,46 @@ const StyledNavLink = styled(NavLink)`
 
     &.active {
         font-weight: bold;
-        color: #ffffff; /* Active link color */
+        color: #ffffff;
     }
 
     &:hover {
-        text-decoration: underline; /* Underline effect on hover */
+        text-decoration: underline;
     }
 `;
 
-const DropdownContainer = styled.div`
+const Dropdown = styled.div`
     position: relative;
     display: inline-block;
-`;
 
-const DropdownButton = styled.button`
-    background: none;
-    color: inherit;
-    font: inherit;
-    border: none;
-    padding: 0;
-    cursor: pointer;
+    &:hover .dropdown-content {
+        display: block;
     }
 `;
 
 const DropdownContent = styled.div`
-    display: ${({ isOpen }) => (isOpen ? "block" : "none")};
+    display: none;
     position: absolute;
     background-color: #282c34;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
-`;
 
-const DropdownLink = styled(NavLink)`
-    color: #61dafb;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-
-    &:hover {
-        background-color: #ffffff;
-        color: #282c34;
+    a {
+        color: #61dafb;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
     }
 
-    &.active {
-        font-weight: bold;
-        color: #ffffff; /* Active link color */
+    a:hover {
+        background-color: #333;
     }
 `;
 
 function NavBar() {
-    const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-    const toggleDropdown = () => {
-        setDropdownOpen(!isDropdownOpen);
-    };
-
+    
     return (
         <Header>
             <Title>One Stop Shop</Title>
@@ -115,25 +76,23 @@ function NavBar() {
                 <StyledNavLink to="/" end>
                     Home
                 </StyledNavLink>
+
                 <StyledNavLink to="/products/new">
                     New Form
                 </StyledNavLink>
 
-                
-                <DropdownContainer>
-                    <DropdownButton onClick={toggleDropdown}>
-                        Inventory
-                    </DropdownButton>
-                    <DropdownContent isOpen={isDropdownOpen}>
-                        <DropdownLink to="/products?type=jewelry">jewelry</DropdownLink>
-                        <DropdownLink to="/products?type=shirt">shirts</DropdownLink>
-                        <DropdownLink to="/products?type=pants">Pants</DropdownLink>
+                <Dropdown>
+                    <StyledNavLink as="span">Products</StyledNavLink>
+                    <DropdownContent className="dropdown-content">
+                        <Link to="/products?type=jewelry">See All Jewelry</Link>
+                        <Link to="/products?type=shirt">See All Shirts</Link>
+                        <Link to="/products?type=pants">See All Pants</Link>
                     </DropdownContent>
-                </DropdownContainer>
+                </Dropdown>
             </Navigation>
+        
         </Header>
     );
 }
 
 export default NavBar;
-

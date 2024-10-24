@@ -1,245 +1,268 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Sapphire Elegance Ring",
-        "price": 1200,
-        "type": "Ring",
-        "image":"/Image/Sapphire-Ring.jpg",
-        "description": "A stunning sapphire stone set in a halo of sparkling diamonds, crafted from 18k white gold. Perfect for special occasions."
-      },
-      {
-        "id": 2,
-        "name": "Golden Serenity Necklace",
-        "price": 950,
-        "type": "Necklace",
-        "image":"/Image/goldennecklass.jpg",
-        "description": "A delicate chain necklace adorned with a polished golden pendant shaped like a teardrop. Elegant and timeless for any event."
-      },
-      {
-        "id": 3,
-        "name": "Pearl Grace Earrings",
-        "price": 450,
-        "type": "Earrings",
-        "image":"/Image/pearls.webp",
-        "description": "Classic freshwater pearl earrings with sterling silver hooks. These minimalist earrings are a staple for any jewelry collection."
-      },
-      {
-        "id": 4,
-        "name": "Diamond Luxe Bracelet",
-        "price": 3500,
-        "type": "Bracelet",
-        "image":"/Image/Luxe Bracelet.jpg",
-        "description": "A luxurious bracelet encrusted with round-cut diamonds in a platinum setting. Ideal for glamorous evenings."
-      },
-      {
-        "id": 5,
-        "name": "Rose Gold Bloom Ring",
-        "price": 675,
-        "type": "Ring",
-        "image":"/Image/Rose GoldRing.jpg",
-        "description": "A chic rose gold ring with intricate floral patterns, accented with small diamonds for added sparkle and charm."
-      },
-      {
-        "id": 6,
-        "name": "Amethyst Whisper Pendant",
-        "price": 290,
-        "type": "Pendant Necklace",
-        "image":"/Image/AmethystWhisper.jpg",
-        "description": "A violet amethyst set in a minimalist silver frame, hanging from a dainty chain. A touch of mystical elegance for everyday wear."
-      },
-      {
-        "id": 7,
-        "name": "Silver Twist Cuff",
-        "price": 850,
-        "type": "Bracelet",
-        "image":"/Image/Silver-Twist-Cuff.webp",
-        "description": "A contemporary silver cuff bracelet with an elegant twist design, offering modern style with subtle sophistication."
-      },
-      {
-        "id": 8,
-        "name": "Emerald Horizon Earrings",
-        "price": 1100,
-        "type": "Earrings",
-        "image":"/Image/EmeraldEarrings.jpg",
-        "description": "Dangling earrings featuring radiant emerald stones surrounded by small diamonds, set in 18k gold."
-      },
-      {
-        "id": 9,
-        "name": "Black Onyx Mystique Necklace",
-        "price": 650,
-        "type": "Necklace",
-        "image":"/Image/BlackOnyxMystique.jpg",
-        "description": "A statement black onyx pendant on a silver chain, combining mystery and elegance in one piece."
-      },
-      {
-        "id": 10,
-        "name": "Ruby Radiance Ring",
-        "price": 2000,
-        "type": "Ring",
-        "image":"/Image/Ruby Ring.jpg",
-        "description": "A fiery ruby set in a regal gold band, accented with shimmering diamonds. Ideal for those who love bold and classic pieces."
-      },
-      {
-        "id": 11,
-        "name": "Classic White T-Shirt",
-        "price": 25,
-        "type": "Shirt",
-        "image":"/Image/White T.jpg",
-        "description": "A simple and versatile white cotton t-shirt that’s a wardrobe essential for casual wear."
-      },
-      {
-        "id": 12,
-        "name": "Striped Button-Up Shirt",
-        "price": 45,
-        "type": "Shirt",
-        "image":"/Image/Button-Up-Shirt.jpg",
-        "description": "A crisp, long-sleeve button-up shirt with navy and white stripes, perfect for semi-formal occasions."
-      },
-      {
-        "id": 13,
-        "name": "Casual Denim Shirt",
-        "price": 40,
-        "type": "Shirt",
-        "image":"/Image/Denim Shirt.jpg",
-        "description": "A relaxed-fit denim shirt with snap buttons and chest pockets, ideal for layering or casual looks."
-      },
-      {
-        "id": 14,
-        "name": "Graphic Print Tee",
-        "price": 30,
-        "type": "Shirt",
-        "image":"/Image/Graphic Tee.jpg",
-        "description": "A soft cotton t-shirt featuring a bold graphic print design, great for casual days out."
-      },
-      {
-        "id": 15,
-        "name": "Plaid Flannel Shirt",
-        "price": 50,
-        "type": "Shirt",
-        "image":"/Image/Plaid Shirt.jpg",
-        "description": "A classic plaid flannel shirt that provides comfort and warmth. Perfect for layering during colder months."
-      },
-      {
-        "id": 16,
-        "name": "Black Polo Shirt",
-        "price": 35,
-        "type": "Shirt",
-        "image":"/Image/BlackPolo .jpg",
-        "description": "A sleek black polo shirt made from breathable fabric, perfect for smart casual wear."
-      },
-      {
-        "id": 17,
-        "name": "V-Neck Long Sleeve Shirt",
-        "price": 28,
-        "type": "Shirt",
-        "image":"/Image/V-NeckShirt.webp",
-        "description": "A comfortable long sleeve shirt with a v-neck design, ideal for layering during cooler days."
-      },
-      {
-        "id": 18,
-        "name": "Silk Dress Shirt",
-        "price": 120,
-        "type": "Shirt",
-        "image":"/Image/Silk-Dress-Shirt.jpg",
-        "description": "An elegant silk shirt with a smooth, glossy finish. Perfect for formal occasions."
-      },
-      {
-        "id": 19,
-        "name": "Oversized Hoodie",
-        "price": 60,
-        "type": "Shirt",
-        "image":"/Image/OversizedHoodie.jpg",
-        "description": "A comfy oversized hoodie with a soft interior lining, perfect for lounging or casual wear."
-      },
-      {
-        "id": 20,
-        "name": "Checked Button-Down Shirt",
-        "price": 40,
-        "type": "Shirt",
-        "image":"/Image/CheckedButton-DownShirt.webp",
-        "description": "A lightweight checked button-down shirt that’s perfect for everyday casual wear."
-      },
-      {
-        "id": 21,
-        "name": "Slim Fit Chinos",
-        "price": 65,
-        "type": "Pants",
-        "image":"/Image/Slim-Chinos.jpg",
-        "description": "A pair of sleek slim-fit chinos made from durable cotton, perfect for both work and casual outings."
-      },
-      {
-        "id": 22,
-        "name": "Classic Blue Jeans",
-        "price": 50,
-        "type": "Pants",
-        "image":"/Image/Blue Jeans.jpg",
-        "description": "Classic straight-leg blue jeans made from high-quality denim. An everyday wardrobe essential."
-      },
-      {
-        "id": 23,
-        "name": "Cargo Pants",
-        "price": 55,
-        "type": "Pants",
-        "image":"/Image/Cargo Pants.jpg",
-        "description": "Relaxed-fit cargo pants with multiple pockets, offering both functionality and style."
-      },
-      {
-        "id": 24,
-        "name": "Black Jogger Pants",
-        "price": 45,
-        "type": "Pants",
-        "image":"/Image/BlackJogger.jpg",
-        "description": "Comfortable black joggers with an adjustable waistband and tapered legs, perfect for workouts or lounging."
-      },
-      {
-        "id": 25,
-        "name": "Tailored Dress Pants",
-        "price": 80,
-        "type": "Pants",
-        "image":"/Image/Tailored-Pants.jpg",
-        "description": "Sharp, tailored dress pants with a slim fit, ideal for formal occasions or office wear."
-      },
-      {
-        "id": 26,
-        "name": "Corduroy Pants",
-        "price": 70,
-        "type": "Pants",
-        "image":"/Image/Corduroy Pants.jpg",
-        "description": "Stylish corduroy pants offering a vintage look and comfortable fit, great for casual or semi-formal wear."
-      },
-      {
-        "id": 27,
-        "name": "Relaxed Fit Linen Pants",
-        "price": 75,
-        "type": "Pants",
-        "image":"/Image/Linen Pants.jpg",
-        "description": "Breathable linen pants in a relaxed fit, ideal for summer days or vacations."
-      },
-      {
-        "id": 28,
-        "name": "Athletic Track Pants",
-        "price": 55,
-        "type": "Pants",
-        "image":"/Image/AthleticTrackPant.jpg",
-        "description": "Durable track pants with moisture-wicking fabric and a slim fit, great for sports or gym sessions."
-      },
-      {
-        "id": 29,
-        "name": "Khaki Pants",
-        "price": 60,
-        "type": "Pants",
-        "image":"/Image/Khaki Pants.jpg",
-        "description": "Classic khaki pants that offer a relaxed fit, perfect for casual or semi-formal outfits."
-      },
-      {
-        "id": 30,
-        "name": "Distressed Skinny Jeans",
-        "price": 50,
-        "type": "Pants",
-        "image":"/Image/Distressed Skinny Jeans.webp",
-        "description": "Edgy distressed skinny jeans with a comfortable stretch fit, perfect for casual wear."
-      }
-    ]
-  }
-  
+  "products": [
+    {
+      "id": "1",
+      "name": "Sapphire Elegance Ring",
+      "price": 1200,
+      "type": "Ring",
+      "image": "/Image/Sapphire-Ring.jpg",
+      "description": "A stunning sapphire stone set in a halo of sparkling diamonds, crafted from 18k white gold. Perfect for special occasions."
+    },
+    {
+      "id": "2",
+      "name": "Golden Serenity Necklace",
+      "price": 950,
+      "type": "Necklace",
+      "image": "/Image/goldennecklass.jpg",
+      "description": "A delicate chain necklace adorned with a polished golden pendant shaped like a teardrop. Elegant and timeless for any event."
+    },
+    {
+      "id": "3",
+      "name": "Pearl Grace Earrings",
+      "price": 450,
+      "type": "Earrings",
+      "image": "/Image/pearls.webp",
+      "description": "Classic freshwater pearl earrings with sterling silver hooks. These minimalist earrings are a staple for any jewelry collection."
+    },
+    {
+      "id": "4",
+      "name": "Diamond Luxe Bracelet",
+      "price": 3500,
+      "type": "Bracelet",
+      "image": "/Image/Luxe Bracelet.jpg",
+      "description": "A luxurious bracelet encrusted with round-cut diamonds in a platinum setting. Ideal for glamorous evenings."
+    },
+    {
+      "id": "5",
+      "name": "Rose Gold Bloom Ring",
+      "price": 675,
+      "type": "Ring",
+      "image": "/Image/Rose GoldRing.jpg",
+      "description": "A chic rose gold ring with intricate floral patterns, accented with small diamonds for added sparkle and charm."
+    },
+    {
+      "id": "6",
+      "name": "Amethyst Whisper Pendant",
+      "price": 290,
+      "type": "Pendant Necklace",
+      "image": "/Image/AmethystWhisper.jpg",
+      "description": "A violet amethyst set in a minimalist silver frame, hanging from a dainty chain. A touch of mystical elegance for everyday wear."
+    },
+    {
+      "id": "7",
+      "name": "Silver Twist Cuff",
+      "price": 850,
+      "type": "Bracelet",
+      "image": "/Image/Silver-Twist-Cuff.webp",
+      "description": "A contemporary silver cuff bracelet with an elegant twist design, offering modern style with subtle sophistication."
+    },
+    {
+      "id": "8",
+      "name": "Emerald Horizon Earrings",
+      "price": 1100,
+      "type": "Earrings",
+      "image": "/Image/EmeraldEarrings.jpg",
+      "description": "Dangling earrings featuring radiant emerald stones surrounded by small diamonds, set in 18k gold."
+    },
+    {
+      "id": "9",
+      "name": "Black Onyx Mystique Necklace",
+      "price": 650,
+      "type": "Necklace",
+      "image": "/Image/BlackOnyxMystique.jpg",
+      "description": "A statement black onyx pendant on a silver chain, combining mystery and elegance in one piece."
+    },
+    {
+      "id": "10",
+      "name": "Ruby Radiance Ring",
+      "price": 2000,
+      "type": "Ring",
+      "image": "/Image/Ruby Ring.jpg",
+      "description": "A fiery ruby set in a regal gold band, accented with shimmering diamonds. Ideal for those who love bold and classic pieces."
+    },
+    {
+      "id": "11",
+      "name": "Classic White T-Shirt",
+      "price": 25,
+      "type": "Shirt",
+      "image": "/Image/White T.jpg",
+      "description": "A simple and versatile white cotton t-shirt that’s a wardrobe essential for casual wear."
+    },
+    {
+      "id": "12",
+      "name": "Striped Button-Up Shirt",
+      "price": 45,
+      "type": "Shirt",
+      "image": "/Image/Button-Up-Shirt.jpg",
+      "description": "A crisp, long-sleeve button-up shirt with navy and white stripes, perfect for semi-formal occasions."
+    },
+    {
+      "id": "13",
+      "name": "Casual Denim Shirt",
+      "price": 40,
+      "type": "Shirt",
+      "image": "/Image/Denim Shirt.jpg",
+      "description": "A relaxed-fit denim shirt with snap buttons and chest pockets, ideal for layering or casual looks."
+    },
+    {
+      "id": "14",
+      "name": "Graphic Print Tee",
+      "price": 30,
+      "type": "Shirt",
+      "image": "/Image/Graphic Tee.jpg",
+      "description": "A soft cotton t-shirt featuring a bold graphic print design, great for casual days out."
+    },
+    {
+      "id": "15",
+      "name": "Plaid Flannel Shirt",
+      "price": 50,
+      "type": "Shirt",
+      "image": "/Image/Plaid Shirt.jpg",
+      "description": "A classic plaid flannel shirt that provides comfort and warmth. Perfect for layering during colder months."
+    },
+    {
+      "id": "16",
+      "name": "Black Polo Shirt",
+      "price": 35,
+      "type": "Shirt",
+      "image": "/Image/BlackPolo .jpg",
+      "description": "A sleek black polo shirt made from breathable fabric, perfect for smart casual wear."
+    },
+    {
+      "id": "17",
+      "name": "V-Neck Long Sleeve Shirt",
+      "price": 28,
+      "type": "Shirt",
+      "image": "/Image/V-NeckShirt.webp",
+      "description": "A comfortable long sleeve shirt with a v-neck design, ideal for layering during cooler days."
+    },
+    {
+      "id": "18",
+      "name": "Silk Dress Shirt",
+      "price": 120,
+      "type": "Shirt",
+      "image": "/Image/Silk-Dress-Shirt.jpg",
+      "description": "An elegant silk shirt with a smooth, glossy finish. Perfect for formal occasions."
+    },
+    {
+      "id": "19",
+      "name": "Oversized Hoodie",
+      "price": 60,
+      "type": "Shirt",
+      "image": "/Image/OversizedHoodie.jpg",
+      "description": "A comfy oversized hoodie with a soft interior lining, perfect for lounging or casual wear."
+    },
+    {
+      "id": "20",
+      "name": "Checked Button-Down Shirt",
+      "price": 40,
+      "type": "Shirt",
+      "image": "/Image/CheckedButton-DownShirt.webp",
+      "description": "A lightweight checked button-down shirt that’s perfect for everyday casual wear."
+    },
+    {
+      "id": "21",
+      "name": "Slim Fit Chinos",
+      "price": 65,
+      "type": "Pants",
+      "image": "/Image/Slim-Chinos.jpg",
+      "description": "A pair of sleek slim-fit chinos made from durable cotton, perfect for both work and casual outings."
+    },
+    {
+      "id": "22",
+      "name": "Classic Blue Jeans",
+      "price": 50,
+      "type": "Pants",
+      "image": "/Image/Blue Jeans.jpg",
+      "description": "Classic straight-leg blue jeans made from high-quality denim. An everyday wardrobe essential."
+    },
+    {
+      "id": "23",
+      "name": "Cargo Pants",
+      "price": 55,
+      "type": "Pants",
+      "image": "/Image/Cargo Pants.jpg",
+      "description": "Relaxed-fit cargo pants with multiple pockets, offering both functionality and style."
+    },
+    {
+      "id": "24",
+      "name": "Black Jogger Pants",
+      "price": 45,
+      "type": "Pants",
+      "image": "/Image/BlackJogger.jpg",
+      "description": "Comfortable black joggers with an adjustable waistband and tapered legs, perfect for workouts or lounging."
+    },
+    {
+      "id": "25",
+      "name": "Tailored Dress Pants",
+      "price": 80,
+      "type": "Pants",
+      "image": "/Image/Tailored-Pants.jpg",
+      "description": "Sharp, tailored dress pants with a slim fit, ideal for formal occasions or office wear."
+    },
+    {
+      "id": "26",
+      "name": "Corduroy Pants",
+      "price": 70,
+      "type": "Pants",
+      "image": "/Image/Corduroy Pants.jpg",
+      "description": "Stylish corduroy pants offering a vintage look and comfortable fit, great for casual or semi-formal wear."
+    },
+    {
+      "id": "27",
+      "name": "Relaxed Fit Linen Pants",
+      "price": 75,
+      "type": "Pants",
+      "image": "/Image/Linen Pants.jpg",
+      "description": "Breathable linen pants in a relaxed fit, ideal for summer days or vacations."
+    },
+    {
+      "id": "28",
+      "name": "Athletic Track Pants",
+      "price": 55,
+      "type": "Pants",
+      "image": "/Image/AthleticTrackPant.jpg",
+      "description": "Durable track pants with moisture-wicking fabric and a slim fit, great for sports or gym sessions."
+    },
+    {
+      "id": "29",
+      "name": "Khaki Pants",
+      "price": 60,
+      "type": "Pants",
+      "image": "/Image/Khaki Pants.jpg",
+      "description": "Classic khaki pants that offer a relaxed fit, perfect for casual or semi-formal outfits."
+    },
+    {
+      "id": "30",
+      "name": "Distressed Skinny Jeans",
+      "price": 50,
+      "type": "Pants",
+      "image": "/Image/Distressed Skinny Jeans.webp",
+      "description": "Edgy distressed skinny jeans with a comfortable stretch fit, perfect for casual wear."
+    },
+    {
+      "id": "00b2",
+      "name": "tgb",
+      "price": "1000",
+      "type": "Ring",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "image": "https://cdn.britannica.com/16/47016-050-750238DA/brooch-emeralds-Stomacher-flowers-enamel-treasure-gold.jpg?w=300"
+    },
+    {
+      "id": "72c9",
+      "name": "jesus piece",
+      "price": "100",
+      "type": "Pendant Necklace",
+      "description": "looks godly amazing ",
+      "image": "https://i.ebayimg.com/images/g/Pz0AAOSwIrtevWmR/s-l1600.webp"
+    },
+    {
+      "id": "7f2b",
+      "name": "saint rays shirt",
+      "price": "15",
+      "type": "Shirt",
+      "description": "saint raymond high school for boys ",
+      "image": "data:image/jpeg;base64,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"
+    }
+  ]
+}

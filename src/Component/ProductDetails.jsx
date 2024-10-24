@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
-
 const Card = styled.div`
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -24,29 +23,30 @@ const Price = styled.p`
     font-weight: bold;
 `;
 
-const baseUrl = "http://localhost:6001/products"
+const baseUrl = "http://localhost:6001/products";
+
 const ProductDetails = () => {
-    const [product, setProduct] = useState(null)
-    const {id} = useParams()
+    const [product, setProduct] = useState(null);
+    const { id } = useParams();
+
     useEffect(() => {
         fetch(`${baseUrl}/${id}`)
-        .then ((response) => response.json())
-        .then ((data) => setProduct(data))
-        .catch((error) => console.log(error))
-    },[id])
-    if(!product){
-        return(
-            <h2>Loading</h2>
-        )
+            .then((response) => response.json())
+            .then((data) => setProduct(data))
+            .catch((error) => console.log(error));
+    }, [id]);
+
+    if (!product) {
+        return <h2>Loading...</h2>;
     }
+
     return (
         <Card>
-            <img src={product.image} alt={product.name} style={{ maxWidth: "100%", height: "auto" }}/>
+            <img src={product.image} alt={product.name} style={{ maxWidth: "100%", height: "auto" }} />
             <Title>{product.name}</Title>
             <Price>Price: ${product.price}</Price>
             <p>Type: {product.type}</p>
             <p>Description: {product.description}</p>
-            
         </Card>
     );
 };

@@ -16,13 +16,13 @@ const ProductRow = styled.div`
     justify-content: center; /* Center items in the row */
 `;
 
-const ProductCategory = ({ title, products, onMoreDetails }) => {
+const ProductCategory = ({ title, products }) => {
     return (
         <CategoryContainer>
             <CategoryTitle>{title}</CategoryTitle>
             <ProductRow>
                 {products.map((product) => (
-                    <ProductCard key={product.id} product={product} onMoreDetails={onMoreDetails} />
+                    <ProductCard key={product.id} product={product}  />
                 ))}
             </ProductRow>
         </CategoryContainer>
