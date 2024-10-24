@@ -3,16 +3,18 @@ import { useOutletContext } from "react-router";
 import styled from "styled-components";
 
 const FormContainer = styled.div`
-    margin-top: 20px;
+    margin: 40px auto; /* Center the form with top margin */
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
+    max-width: 400px; /* Set a maximum width for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 `;
 
 const StyledInput = styled.input`
     width: 100%;
-    padding: 10px;
+    padding: 8px; /* Slightly reduce padding */
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -20,7 +22,7 @@ const StyledInput = styled.input`
 
 const StyledSelect = styled.select`
     width: 100%;
-    padding: 10px;
+    padding: 8px; /* Slightly reduce padding */
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -28,17 +30,19 @@ const StyledSelect = styled.select`
 
 const StyledTextarea = styled.textarea`
     width: 100%;
-    padding: 10px;
+    padding: 8px; /* Slightly reduce padding */
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 80px; /* Set a minimum height for the textarea */
 `;
 
 const SubmitButton = styled.button`
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 8px 12px; /* Slightly reduce padding */
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;

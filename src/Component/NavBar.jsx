@@ -30,6 +30,7 @@ const StyledNavLink = styled(NavLink)`
     &.active {
         font-weight: bold;
         color: #ffffff;
+        color: #ffffff;
     }
 
     &:hover {
@@ -76,6 +77,7 @@ function NavBar() {
                 <StyledNavLink to="/" end>
                     Home
                 </StyledNavLink>
+
 
                 <StyledNavLink to="/products/new">
                     New Form
